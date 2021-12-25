@@ -20,10 +20,10 @@ implementation "androidx.room:room-ktx:$room_version"
 
 // Coroutines
 
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version'
-implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version'
+implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
 
-// ViweModel
+// ViewModel
 implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
 
